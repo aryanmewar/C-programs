@@ -1,0 +1,18 @@
+//wite a compiler to find the modulus and quoutient of the numbers given by use
+#include <stdio.h>
+void main ()
+{
+ int a,b,q,r;
+ printf ("Enter the first no.");
+ scanf ("%d", &a);
+ 
+ printf ("enter the second no.");
+ scanf ("%d", &b);
+ 
+ q =a/b;
+ r =a%b;
+ 
+ printf ("quetient is: %d\n", q);
+ printf ("remainder is: %d\n", r);
+ 
+}
